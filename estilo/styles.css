@@ -65,7 +65,7 @@ nav {
   box-shadow: 0px 7px 7px rgba(0,0,0,0.192);
 }
 nav > a {
-  color: cor(--cor1);
+  color: var(--cor0);
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
@@ -76,6 +76,7 @@ nav > a {
 nav > a:hover {
   background-color: var(--cor3);
   color: var(--cor5);
+  margin: 10px;
 }
 
 main {
@@ -125,6 +126,7 @@ main a {
   color: var(--cor5);
   background-color: var(--cor1);
   padding: 2px 6px;
+  border-radius: 8px;
 }
 
 main a:hover {
@@ -133,6 +135,7 @@ main a:hover {
 }
 main img {
   width: 100%;
+  box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.404);
 }
 main img.pequena {
   max-width: 350px;
